@@ -51,18 +51,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a52q/proprietary/vendor/lib64/camera/com.samsung.tuned.sony_imx682.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.samsung.tuned.sony_imx682.bin
 
 PRODUCT_PACKAGES += \
+    com.qti.eeprom.sec2qcconversion \
     com.samsung.sensor.gc5035 \
+    com.samsung.node.smooth_transition \
+    com.wrapper.stats.aec \
     camera.qcom \
     com.samsung.chi.override \
-    libsec2qc_conversion \
-    com.qti.eeprom.sec2qcconversion \
-    com.samsung.node.smooth_transition \
-    com.samsung.node.uniplugin_recording \
-    com.samsung.node.uniplugin_vdis \
-    com.wrapper.stats.aec \
     libSNPE \
+    libsec2qc_conversion \
     libsnpe_dsp_domains_v2 \
     libsnpe_wrapper \
+    com.samsung.node.uniplugin_recording \
+    com.samsung.node.uniplugin_vdis \
     libbauthserver \
     libbauthtzcommon \
     libegis_fp_normal_sensor_test \
